@@ -9,7 +9,7 @@ function exibirTextoNaTela(tag, texto) {
     campo.innerHTML = texto;
      responsiveVoice.speak(texto, "Brazilian Portuguese Female",{rate:1.0});
 }
-// usar esse codigo para falar responsiveVoice.speak(texto, "Brazilian Portuguese Female",{rate:1.2});
+// usar esse codigo para falar responsiveVoice.speak(texto, "Brazilian Portuguese Female",{rate:1.0});
 
 
 function exibirMensagemInicial(){
