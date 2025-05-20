@@ -31,9 +31,9 @@ function verificarChute() {
         document.getElementById("reiniciar").removeAttribute("disabled");
     } else {
         if (chute > numeroSecreto) {
-            exibirTextoNaTela("p", "O número secreto e menor");
+            exibirTextoNaTela("p", "O número secreto é menor");
         } else {
-            exibirTextoNaTela("p", "O número secreto e maior");
+            exibirTextoNaTela("p", "O número secreto é maior");
         }
             
     } 
